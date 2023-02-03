@@ -11,12 +11,12 @@
     "react-dom": "^16.7.0",
     "react-redux": "^7.2.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "^2.3.0",
     "redux": "^4.1.2"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts --openssl-legacy-provider start",
+    "start": "set PORT=3001 && react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
